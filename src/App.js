@@ -25,7 +25,7 @@ const App = () => {
         <div className={classes.App}>
           <Header/>
           <Routes>
-            <Route exact path='/crypto-tracker' element={ <Home/> }/>
+            <Route exact path='/' element={ <Home/> }/>
             <Route exact path='/coins/:id' element={ <CoinPage/> }/>
           </Routes>
         </div>
